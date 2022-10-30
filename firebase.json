@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/portfolio-garcia-marquez-maria-luz",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

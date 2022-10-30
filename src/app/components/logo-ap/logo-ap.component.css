@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rsociales {
+  margin-right: 0.5em;
+}
+
+#logoAP {
+  width: 200px;
+}
+
+img {
+  width: 30px;
+  margin: 0.2em;
+}
+
+.btn {
+  border-width: medium;
+}
+
+/*...para la vista de celular*/
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+  }
+
+  img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em;
+    width: 80px;
+  }
+
+  button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em;
+  }
+
+  .rsociales {
+    margin-right: 0%;
+  }
+
+  #logoAP {
+    width: 200px;
+  }
+}

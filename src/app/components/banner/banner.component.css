@@ -1,0 +1,61 @@
+.banner-img {
+  background-image: url(../../../assets/banner1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 500px;
+}
+
+.banner-text {
+  position: absolute;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 35%;
+  font-family: "Kalam", cursive;
+  font-size: 130px;
+  letter-spacing: 30px;
+}
+
+/*...para la vista de celular*/
+@media (max-width: 575px) {
+  .banner-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    font-size: 130px;
+    letter-spacing: 1px;
+  }
+}
+
+/*.img {
+  position: relative;
+  width: cover;
+
+  height: 500px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.cover h1 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 40%;
+  font-family: "Kalam", cursive;
+  font-size: 130px;
+}*/
+
+/*.centered {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 40%;
+  letter-spacing: 20px;
+  font-family: "Kalam", cursive;
+  font-size: 130px;
+}*/
